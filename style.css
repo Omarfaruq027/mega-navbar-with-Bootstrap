@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@300;400;500;600&family=Heebo:wght@400;500;600;700&display=swap');
+:root {
+    /* bg color */
+    --bg-primary-color: #A82C48;
+    --bg-secondary-color: #dd754c;
+    /* text color */
+    --text-white: #fff;
+    --text-primary-color: rgb(105, 88, 153);
+    --text-secondary-color: rgb(34, 207, 219);
+    --text-third-color: #000;
+}
+
+body {
+    background: var(--bg-secondary-color)!important;
+    font-family: 'Heebo', sans-serif;
+}
+
+main {
+    height: 100vh;
+}
+
+button:focus,
+.navbar-toggler:focus {
+    outline: 0!important;
+    box-shadow: none!important;
+}
